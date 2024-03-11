@@ -3,15 +3,13 @@
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "Rus");
-	
 	const int ROWS = 5;
 	const int COLS = 5;
 
 	int arr[ROWS][COLS]{};
 
 	if ((ROWS % 2 == 0) || (COLS % 2 == 0)) {
-		cout << "Число строк и колонок должно быть нечетное!" << endl;
+		cout << "Chislo strok i kolonok dolzhno bit nechetnoe!" << endl;
 	}
 
 	else {
