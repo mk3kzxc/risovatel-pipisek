@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-	const int ROWS = 5;
+	const int ROWS = 6;
 	const int COLS = 5;
 
 	int arr[ROWS][COLS]{};
 
-	if ((ROWS % 2 == 0) || (COLS % 2 == 0)) {
-		cout << "Chislo strok i kolonok dolzhno bit nechetnoe!" << endl;
+	if (COLS % 2 == 0) {
+		cout << "Chislo kolonok dolzhno bit nechetnoe!" << endl;
 	}
 
 	else {
